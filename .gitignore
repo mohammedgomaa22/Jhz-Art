@@ -15,7 +15,7 @@ dist-ssr
 
 # Editor directories and files
 NOTES.txt
-tailwind.config
+tailwind.config.js
 .vscode/*
 !.vscode/extensions.json
 .idea

@@ -389,24 +389,32 @@
     </main>
     
     <footer>
-    <!-- Copyright Section -->
-    <div class="py-6 bg-gray-900 border-t border-gray-800">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-center items-center text-center md:text-left">
-                <!-- Copyright Text -->
-                <div class="text-gray-500 text-sm mb-4 md:mb-0 text-center">
-                    &copy; <span id="currentYear"></span> جهز آرت. جميع الحقوق محفوظة.
+        <!-- Copyright Section -->
+        <div class="py-6 bg-gray-900 border-t border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-center items-center text-center md:text-left">
+                    <!-- Copyright Text -->
+                    <div class="text-gray-500 text-sm mb-4 md:mb-0 text-center">
+                        &copy; <span id="currentYear"></span> جهز آرت. جميع الحقوق محفوظة.
+                    </div>
+    
+                    <!-- Programmer Info -->
+                    <div class="text-gray-400 text-sm mx-4 hidden md:block">|</div>
+    
+                    <div class="text-gray-400 text-sm hover:text-primary transition-colors duration-300">
+                        <a href="https://wa.me/201026053956" target="_blank" rel="noopener noreferrer">
+                            مبرمج / محمد جمعة
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     
-    <script>
-        // Auto-update year
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-    </script>
-    </footer>
-    
+        <script>
+            // Auto-update year
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+        </footer>    
     <!-- MAIN JS File -->
     <script src="./src/js/main.js"></script>
 
